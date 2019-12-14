@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+#define int long long
+#define double long double
+#define endl '\n'
+
 void setEnv() {
 	#ifndef ONLINE_JUDGE
     // for getting input from input.txt
@@ -12,7 +16,7 @@ void setEnv() {
 	#endif
 }
 
-int main() {
+signed main() {
 	setEnv();
 
 	int x;
