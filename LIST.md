@@ -6,7 +6,9 @@
 2. Doubly Linked List
 3. Circular Linked List
 4. Inbuilt Linked List
-5. Reversing a Linked List
+5. Reversing a Single Linked List
+6. Reversing a Double Linked List
+7. Skip List
 
 ## Stacks, Queues
 1. Stacks
