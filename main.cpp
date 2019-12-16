@@ -14,15 +14,24 @@ void setEnv() {
     // for writing error to error.txt
     freopen("error.txt", "w", stderr);
 	#endif
+
+	ios_base::sync_with_stdio(false); 
+	cin.tie(NULL); 
+	cout.tie(NULL);
+}
+
+void solve() {
+
 }
 
 signed main() {
 	setEnv();
 
-	int x;
-	cin>>x;
-	cout<<x<<endl;
-	cerr<<x<<endl;
+	int t = 1;
+	cin>>t;
+	while(t--) {
+		solve();
+	}
 
 	return 0;
 }
