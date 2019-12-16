@@ -5,7 +5,7 @@
 1. [Singly Linked List](LinkedLists/SingleLL.cpp)
 2. [Doubly Linked List](LinkedLists/DoubleLL.cpp)
 3. Circular Linked List
-4. [Inbuilt Linked List]
+4. Inbuilt Linked List
 5. [Reversing a Single Linked List](LinkedLists/ReverseSLL.cpp)
 6. [Reversing a Double Linked List](LinkedLists/ReverseDLL.cpp)
 7. Skip List
