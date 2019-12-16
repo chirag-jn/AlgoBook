@@ -19,25 +19,32 @@ void setEnv() {
 class Node {
 public:
 	int data;
+	Node *prev;
 	Node *next;
 };
 
-void insertNode(Node**, int);
+void pushNode(Node**, int);
 void print(Node*);
 void reverse(Node**);
 
-void insertNode(Node **head, int data) {
+// Inserting Node at front
+void pushNode(Node** head, int data) {
 	Node *temp = new Node();
 	temp->data = data;
+	temp->prev = NULL;
 	temp->next = (*head);
+
+	if((*head)!=NULL) {
+		(*head)->prev = temp;
+	} 
+
 	(*head) = temp;
+
 }
 
 void print(Node *head) {
-	Node *temp = head;
-	if(temp==NULL) {
-		cout<<"Empty"<<endl;
-	}
+	Node *temp;
+	temp = head;
 	while(temp!=NULL) {
 		cout<<temp->data<<" ";
 		temp = temp->next;
@@ -46,25 +53,26 @@ void print(Node *head) {
 }
 
 void reverse(Node **head) {
+	Node *temp = NULL;
 	Node *cur = (*head);
-	Node *prev, *next = NULL;
 	while(cur!=NULL) {
-		next = cur->next;
-		cur->next = prev;
-		prev = cur;
-		cur = next;
+		temp = cur->prev;
+		cur->prev = cur->next;
+		cur->next = temp;
+		cur = cur->prev;
 	}
-	(*head) = prev;
+	if(temp!=NULL) {
+		(*head) = temp->prev;
+	}
 }
 
 signed main() {
 	setEnv();
 
 	Node *head = NULL;
-
-	insertNode(&head, 10);
-	insertNode(&head, 20);
-	insertNode(&head, 30);
+	pushNode(&head, 10);
+	pushNode(&head, 20);
+	pushNode(&head, 30);
 
 	print(head);
 
