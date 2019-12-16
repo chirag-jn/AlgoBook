@@ -2,7 +2,7 @@
 1. Sliding Window
 
 ## Linked Lists
-1. Singly Linked List
+1. [Singly Linked List](LinkedLists/SingleLL.cpp)
 2. Doubly Linked List
 3. Circular Linked List
 4. Inbuilt Linked List
