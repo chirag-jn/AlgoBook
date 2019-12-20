@@ -20,6 +20,18 @@ void setEnv() {
 	cout.tie(NULL);
 }
 
+void debug(string s) { // Doesn't run in case of an online judge
+	#ifndef ONLINE_JUDGE
+	cout<<s<<endl;
+	#endif
+}
+
+void debug(int s) { // Doesn't run in case of an online judge
+	#ifndef ONLINE_JUDGE
+	cout<<s<<endl;
+	#endif
+}
+
 void solve() {
 
 }
