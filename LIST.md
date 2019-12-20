@@ -21,7 +21,7 @@
 2. Max-Heap
 
 ## Trees
-1. Binary Search Tree
+1. [Binary Search Tree](Trees/BST.cpp)
 2. AVL Tree
 3. Red-Black Tree
 
