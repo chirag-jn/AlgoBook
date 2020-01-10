@@ -35,7 +35,9 @@
 5. Floyd Warshall Algorithm
 
 ## Dynamic Programming
-1. Knapsack
+1. [Knapsack](DP/Knapsack.cpp)
+2. Fibonacci
+3. Edit Distance
 
 ## Greedy Algorithms
 
