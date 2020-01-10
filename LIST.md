@@ -37,7 +37,7 @@
 ## Dynamic Programming
 1. [Knapsack](DP/Knapsack.cpp)
 2. [Fibonacci](DP/Fibonacci.cpp)
-3. Edit Distance
+3. [Edit Distance](DP/EditDistance.cpp)
 
 ## Greedy Algorithms
 
