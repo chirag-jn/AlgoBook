@@ -36,7 +36,7 @@
 
 ## Dynamic Programming
 1. [Knapsack](DP/Knapsack.cpp)
-2. Fibonacci
+2. [Fibonacci](DP/Fibonacci.cpp)
 3. Edit Distance
 
 ## Greedy Algorithms
