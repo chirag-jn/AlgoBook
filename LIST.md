@@ -27,7 +27,7 @@
 
 ## Graphs
 1. Representation of Graph
-2. BFS
+2. [BFS](Graphs/BFS.cpp)
 3. DFS
 4. Colouring in DFS
 5. Topological Sort
